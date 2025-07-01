@@ -53,7 +53,7 @@ void main(){
     char player;
     int coordenates, round, aiCord1, aiCord2;
     bool continuar = true;
-    char board[3][3] = {{' ',' ',' '}, {' ',' ',' '}, {' ',' ',' '}}; //uma strign é quando coloamos um char com um array, se for sem os [], então é apeanas um caractere
+    char board[3][3] = {{' ',' ',' '}, {' ',' ',' '}, {' ',' ',' '}};
 
     srand(time(0));
 
